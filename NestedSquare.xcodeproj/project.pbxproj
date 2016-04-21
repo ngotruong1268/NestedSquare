@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7BDC6F91CC8CCC6003C12EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC6F81CC8CCC6003C12EA /* main.m */; };
+		E7BDC6FC1CC8CCC6003C12EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC6FB1CC8CCC6003C12EA /* AppDelegate.m */; };
+		E7BDC6FF1CC8CCC6003C12EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC6FE1CC8CCC6003C12EA /* ViewController.m */; };
+		E7BDC7021CC8CCC6003C12EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC7001CC8CCC6003C12EA /* Main.storyboard */; };
+		E7BDC7041CC8CCC6003C12EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC7031CC8CCC6003C12EA /* Assets.xcassets */; };
+		E7BDC7071CC8CCC6003C12EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC7051CC8CCC6003C12EA /* LaunchScreen.storyboard */; };
+		E7BDC7121CC8CCC7003C12EA /* NestedSquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC7111CC8CCC7003C12EA /* NestedSquareTests.m */; };
+		E7BDC71D1CC8CCC7003C12EA /* NestedSquareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC71C1CC8CCC7003C12EA /* NestedSquareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BDC70E1CC8CCC7003C12EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDC6EC1CC8CCC6003C12EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BDC6F31CC8CCC6003C12EA;
+			remoteInfo = NestedSquare;
+		};
+		E7BDC7191CC8CCC7003C12EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDC6EC1CC8CCC6003C12EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BDC6F31CC8CCC6003C12EA;
+			remoteInfo = NestedSquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7BDC6F41CC8CCC6003C12EA /* NestedSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC6F81CC8CCC6003C12EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7BDC6FA1CC8CCC6003C12EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7BDC6FB1CC8CCC6003C12EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7BDC6FD1CC8CCC6003C12EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7BDC6FE1CC8CCC6003C12EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7BDC7011CC8CCC6003C12EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BDC7031CC8CCC6003C12EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BDC7061CC8CCC6003C12EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7BDC7081CC8CCC6003C12EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC70D1CC8CCC7003C12EA /* NestedSquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedSquareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC7111CC8CCC7003C12EA /* NestedSquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedSquareTests.m; sourceTree = "<group>"; };
+		E7BDC7131CC8CCC7003C12EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC7181CC8CCC7003C12EA /* NestedSquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedSquareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC71C1CC8CCC7003C12EA /* NestedSquareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedSquareUITests.m; sourceTree = "<group>"; };
+		E7BDC71E1CC8CCC7003C12EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7BDC6F11CC8CCC6003C12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC70A1CC8CCC7003C12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC7151CC8CCC7003C12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7BDC6EB1CC8CCC6003C12EA = {
+			isa = PBXGroup;
+			children = (
+				E7BDC6F61CC8CCC6003C12EA /* NestedSquare */,
+				E7BDC7101CC8CCC7003C12EA /* NestedSquareTests */,
+				E7BDC71B1CC8CCC7003C12EA /* NestedSquareUITests */,
+				E7BDC6F51CC8CCC6003C12EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BDC6F51CC8CCC6003C12EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC6F41CC8CCC6003C12EA /* NestedSquare.app */,
+				E7BDC70D1CC8CCC7003C12EA /* NestedSquareTests.xctest */,
+				E7BDC7181CC8CCC7003C12EA /* NestedSquareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BDC6F61CC8CCC6003C12EA /* NestedSquare */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC6FA1CC8CCC6003C12EA /* AppDelegate.h */,
+				E7BDC6FB1CC8CCC6003C12EA /* AppDelegate.m */,
+				E7BDC6FD1CC8CCC6003C12EA /* ViewController.h */,
+				E7BDC6FE1CC8CCC6003C12EA /* ViewController.m */,
+				E7BDC7001CC8CCC6003C12EA /* Main.storyboard */,
+				E7BDC7031CC8CCC6003C12EA /* Assets.xcassets */,
+				E7BDC7051CC8CCC6003C12EA /* LaunchScreen.storyboard */,
+				E7BDC7081CC8CCC6003C12EA /* Info.plist */,
+				E7BDC6F71CC8CCC6003C12EA /* Supporting Files */,
+			);
+			path = NestedSquare;
+			sourceTree = "<group>";
+		};
+		E7BDC6F71CC8CCC6003C12EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC6F81CC8CCC6003C12EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7BDC7101CC8CCC7003C12EA /* NestedSquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC7111CC8CCC7003C12EA /* NestedSquareTests.m */,
+				E7BDC7131CC8CCC7003C12EA /* Info.plist */,
+			);
+			path = NestedSquareTests;
+			sourceTree = "<group>";
+		};
+		E7BDC71B1CC8CCC7003C12EA /* NestedSquareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC71C1CC8CCC7003C12EA /* NestedSquareUITests.m */,
+				E7BDC71E1CC8CCC7003C12EA /* Info.plist */,
+			);
+			path = NestedSquareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7BDC6F31CC8CCC6003C12EA /* NestedSquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC7211CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquare" */;
+			buildPhases = (
+				E7BDC6F01CC8CCC6003C12EA /* Sources */,
+				E7BDC6F11CC8CCC6003C12EA /* Frameworks */,
+				E7BDC6F21CC8CCC6003C12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedSquare;
+			productName = NestedSquare;
+			productReference = E7BDC6F41CC8CCC6003C12EA /* NestedSquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7BDC70C1CC8CCC7003C12EA /* NestedSquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC7241CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquareTests" */;
+			buildPhases = (
+				E7BDC7091CC8CCC7003C12EA /* Sources */,
+				E7BDC70A1CC8CCC7003C12EA /* Frameworks */,
+				E7BDC70B1CC8CCC7003C12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDC70F1CC8CCC7003C12EA /* PBXTargetDependency */,
+			);
+			name = NestedSquareTests;
+			productName = NestedSquareTests;
+			productReference = E7BDC70D1CC8CCC7003C12EA /* NestedSquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7BDC7171CC8CCC7003C12EA /* NestedSquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC7271CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquareUITests" */;
+			buildPhases = (
+				E7BDC7141CC8CCC7003C12EA /* Sources */,
+				E7BDC7151CC8CCC7003C12EA /* Frameworks */,
+				E7BDC7161CC8CCC7003C12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDC71A1CC8CCC7003C12EA /* PBXTargetDependency */,
+			);
+			name = NestedSquareUITests;
+			productName = NestedSquareUITests;
+			productReference = E7BDC7181CC8CCC7003C12EA /* NestedSquareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BDC6EC1CC8CCC6003C12EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ngotruong;
+				TargetAttributes = {
+					E7BDC6F31CC8CCC6003C12EA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+					};
+					E7BDC70C1CC8CCC7003C12EA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7BDC6F31CC8CCC6003C12EA;
+					};
+					E7BDC7171CC8CCC7003C12EA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7BDC6F31CC8CCC6003C12EA;
+					};
+				};
+			};
+			buildConfigurationList = E7BDC6EF1CC8CCC6003C12EA /* Build configuration list for PBXProject "NestedSquare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7BDC6EB1CC8CCC6003C12EA;
+			productRefGroup = E7BDC6F51CC8CCC6003C12EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7BDC6F31CC8CCC6003C12EA /* NestedSquare */,
+				E7BDC70C1CC8CCC7003C12EA /* NestedSquareTests */,
+				E7BDC7171CC8CCC7003C12EA /* NestedSquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7BDC6F21CC8CCC6003C12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC7071CC8CCC6003C12EA /* LaunchScreen.storyboard in Resources */,
+				E7BDC7041CC8CCC6003C12EA /* Assets.xcassets in Resources */,
+				E7BDC7021CC8CCC6003C12EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC70B1CC8CCC7003C12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC7161CC8CCC7003C12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7BDC6F01CC8CCC6003C12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC6FF1CC8CCC6003C12EA /* ViewController.m in Sources */,
+				E7BDC6FC1CC8CCC6003C12EA /* AppDelegate.m in Sources */,
+				E7BDC6F91CC8CCC6003C12EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC7091CC8CCC7003C12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC7121CC8CCC7003C12EA /* NestedSquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC7141CC8CCC7003C12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC71D1CC8CCC7003C12EA /* NestedSquareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7BDC70F1CC8CCC7003C12EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BDC6F31CC8CCC6003C12EA /* NestedSquare */;
+			targetProxy = E7BDC70E1CC8CCC7003C12EA /* PBXContainerItemProxy */;
+		};
+		E7BDC71A1CC8CCC7003C12EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BDC6F31CC8CCC6003C12EA /* NestedSquare */;
+			targetProxy = E7BDC7191CC8CCC7003C12EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7BDC7001CC8CCC6003C12EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC7011CC8CCC6003C12EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BDC7051CC8CCC6003C12EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC7061CC8CCC6003C12EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7BDC71F1CC8CCC7003C12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7BDC7201CC8CCC7003C12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BDC7221CC8CCC7003C12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NestedSquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7BDC7231CC8CCC7003C12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NestedSquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7BDC7251CC8CCC7003C12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NestedSquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSquare.app/NestedSquare";
+			};
+			name = Debug;
+		};
+		E7BDC7261CC8CCC7003C12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NestedSquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedSquare.app/NestedSquare";
+			};
+			name = Release;
+		};
+		E7BDC7281CC8CCC7003C12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NestedSquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NestedSquare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E7BDC7291CC8CCC7003C12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NestedSquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.NestedSquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NestedSquare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7BDC6EF1CC8CCC6003C12EA /* Build configuration list for PBXProject "NestedSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC71F1CC8CCC7003C12EA /* Debug */,
+				E7BDC7201CC8CCC7003C12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDC7211CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC7221CC8CCC7003C12EA /* Debug */,
+				E7BDC7231CC8CCC7003C12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7BDC7241CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC7251CC8CCC7003C12EA /* Debug */,
+				E7BDC7261CC8CCC7003C12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7BDC7271CC8CCC7003C12EA /* Build configuration list for PBXNativeTarget "NestedSquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC7281CC8CCC7003C12EA /* Debug */,
+				E7BDC7291CC8CCC7003C12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7BDC6EC1CC8CCC6003C12EA /* Project object */;
+}
